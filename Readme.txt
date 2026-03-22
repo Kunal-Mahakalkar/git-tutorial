@@ -1,8 +1,8 @@
-`git init` -> powers your folder to managed by git ,and initialize a new
+ 1. `git init` -> powers your folder to managed by git ,and initialize a new
  empty repositorys. it also creates a . git folder that also has all 
  the relavant logic to manage versions of your projets.
 
- `working area` -> there can be a bunch of files that are not handeled by git.
+ 2 `working area` -> there can be a bunch of files that are not handeled by git.
  it means that changes done or to be done in those files are not managed by git 
  yet . a file which is in working area isconsiderd to be not in the staging area . when 
  we do `git status`  we see bunch if `untracked iles`then this are actually called to be in working area.
@@ -40,4 +40,15 @@
 
  14> `git commit -m "<your commit message>"`-> if we want to avoid opening a text editor like vim/ nano 
  to add commit message we can use this following command .
- 
+
+ 15. `git remote`-> list down all the connection names 
+
+ 16.` Remote Connection`-> it helps you to linbk two git repositories for uploasding and downloading changes from each othewise .
+
+ 17. `git remote add <name of remote> <link of the remote>`: thus command help us to add a new link to the remote repo and give a name to it .
+
+ 18.`git remote rm <name of remote>`-> this command deletes a remote connection .
+
+ 19. `gity remote rename <oldnamer> <newname>`: this command renames then remote connection 
+
+ note : The NaME OF THE remote connection is always usedc to established connections between the repos 
