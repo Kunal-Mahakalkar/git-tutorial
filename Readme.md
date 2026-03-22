@@ -58,3 +58,11 @@
  21. `git add .`: this will add all files from working area to staging area.
      
 22.`git pull <remotename> <branchname>`: downloaD LATEST changes from branch of thre mentioned rtemote to the local repo .
+
+###recomended practice to do 
+
+- make changes 
+-git add <file>
+-git commit
+-git pull 
+-git push
