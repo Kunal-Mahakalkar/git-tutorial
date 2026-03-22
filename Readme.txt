@@ -22,7 +22,8 @@
  
  8. `git commit`-> registers staging changes to a commit.
 
- 9. `git log`-> list down all the commits of the repositories .if you wanyt to exit out from the git log prompt press `q`.
+ 9. `git log`-> list down all the commits of the repositories .if you wanyt to exit out from the git log 
+ prompt press `q`.
 
  10.`git restore <file>`-> it removes all files from the staging area to be commited .
  this can be useful , if we  did some  dirty pieces of code and now  no more want it .
@@ -31,8 +32,12 @@
  11. `git restore --stacked <file>`-> it removes files from staging area to working area . 
  this only works when changes are at staging area .
 
- 12. `difference between git rm and git restore `-> if you want to move the who,le file back  to the untracked state , then we do git rm , otherwise if we just want to change 
+ 12. `difference between git rm and git restore `-> if you want to move the who,le file back  to the
+  untracked state , then we do git rm , otherwise if we just want to change 
  to be moved in working area or staging area then we git restore. 
 
  13.`git diff commit1 commit2`-> gives the difference betweemn all files changes between two commits.
+
+ 14> `git commit -m "<your commit message>"`-> if we want to avoid opening a text editor like vim/ nano 
+ to add commit message we can use this following command .
  
