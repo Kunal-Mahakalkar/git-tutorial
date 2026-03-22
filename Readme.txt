@@ -20,4 +20,10 @@
  7. `commit`-> commit is a particular version of the project .it captures  a snapshot  of the project 
  's stacked changes and creates  a version out of it.
  
- 8. `git commit`-> registers staging changes to a commit
+ 8. `git commit`-> registers staging changes to a commit.
+
+ 9. `git log`-> list down all the commits of the repositories .if you wanyt to exit out from the git log prompt press `q`.
+
+ 10.`git restore <file>`-> it removes all files from the staging area to be commited .
+ this can be useful , if we  did some  dirty pieces of code and now  no more want it .
+ insted of deleting every change line by line we can restore last clean version .
